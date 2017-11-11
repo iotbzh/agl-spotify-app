@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" id="poi" version="0.1">
+  <name>spotify-application</name>
+  <icon src="icon.png"/>
+  <content src="index.html" type="text/html"/>
+  <description>HTML5 application for spotify</description>
+  <author>Sebastien Douheret &lt;sebastien.douheret@iot.bzh&gt;</author>
+  <license>APL2.0</license>
+  <feature name="urn:AGL:widget:required-api">
+   <param name="spotify" value="auto" />
+   <param name="identity" value="auto" />
+  </feature>
+</widget>
